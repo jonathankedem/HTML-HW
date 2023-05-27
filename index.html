@@ -8,7 +8,41 @@
     <title>Forms</title>
 </head>
 <body>
-    
+    <form action="">
+        <div>User Details:</div> <br>
+
+        &nbsp; <label for="first-name" id="first-name">First Name:</label> <label for="last-name" id="last-name" >Last Name:</label> <br>
+        <input type="text" id="first-name-input"> &nbsp;&nbsp;&nbsp;
+        <input type="text" id="last-name-input"> 
+        <br>
+
+        <br>&nbsp;<label for="email" id="email">Email:</label> <label for="phone-num" id="phone-num" >Phone Number:</label>  
+        <br><input type="text" id="email">
+        <input type="text" name="phone_number" id="phone-input"> 
+        <br>
+
+        <br> <div class="2">Additional Details:</div> <br>
+
+        <label for="proffesion" id="prof">Profesion:</label> <br>
+        <select style="width: 270px;" id="prof" name="jobs">
+          <option value="volvo"> -Select- </option>
+          <option value="volvo">Frontend</option>
+          <option value="saab">Backend</option>
+          <option value="fiat">Fullstack</option>
+          <option value="audi">Other</option>
+        </select>
+        <br>
+        <label for="comments" id="comments">Comments:</label> <br>
+        <textarea name="message" rows="5" cols="5"></textarea> <br>
+        <br>
+        <br>
+        <hr>
+
+        <input type="reset" id="reset" value="reset form">
+        <input type="submit" id="submit" value="send">
+         
+    </form>
+
     
 </body>
 </html>
